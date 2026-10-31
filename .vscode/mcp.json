@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "unity": {
+      "type": "stdio",
+      "command": "/home/william/.local/bin/unity",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}

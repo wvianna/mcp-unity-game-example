@@ -1,0 +1,74 @@
+# ---------------------------------------------------------------------------
+# Unity — pastas e arquivos gerados pelo Editor
+# Baseado em https://github.com/github/gitignore/blob/main/Unity.gitignore
+# ---------------------------------------------------------------------------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Ee]xported[Oo]bj/
+
+# Metadados de assets só devem ser ignorados junto com o asset correspondente
+!/[Aa]ssets/**/*.meta
+
+# Plugins/tools de terceiros gerados dentro de Assets
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Endereçáveis (caso o pacote seja adicionado depois)
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---------------------------------------------------------------------------
+# Soluções e projetos de IDE — regenerados pelo Unity
+# (este projeto usa o Visual Studio Editor + C# Dev Kit e gera .slnx/.csproj)
+# ---------------------------------------------------------------------------
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.vsconfig
+.vs/
+.idea/
+.consulo/
+.gradle/
+
+# Caches e arquivos de depuração gerados pelas IDEs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.tmp
+
+# Relatórios de crash do Unity
+sysinfo.txt
+crashlytics-build.properties
+
+# ---------------------------------------------------------------------------
+# Builds
+# ---------------------------------------------------------------------------
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ---------------------------------------------------------------------------
+# Sistema operacional e editores
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
